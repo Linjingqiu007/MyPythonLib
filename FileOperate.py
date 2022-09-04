@@ -35,8 +35,8 @@ class fileOperation(object):
             print("The folder deleted success")
 
 
-# if __name__ == "__main__":
-#     myfile = fileOperation()
-#     myfile.newDir("D:\git codebase\MyPythonLib","abc")
-#     myfile.delDir("D:\git codebase\MyPythonLib","abc")
-#     del myfile
+if __name__ == "__main__":
+    myfile = fileOperation()
+    myfile.newDir("D:\git codebase\MyPythonLib","abc")
+    myfile.delDir("D:\git codebase\MyPythonLib","abc")
+    del myfile
