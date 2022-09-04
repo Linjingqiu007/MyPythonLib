@@ -34,7 +34,9 @@ class fileOperation(object):
         else:
             print("The folder deleted success")
 
-
+    def newExcel(self,path,name):
+        pass
+    
 if __name__ == "__main__":
     myfile = fileOperation()
     myfile.newDir("D:\git codebase\MyPythonLib","abc")
